@@ -9,12 +9,18 @@
             "email": "anandsiddharth21@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/acornconsultants/league-oauth2-social"
+        }
+    ],
     "require": {
-        "php": "^7.1.3",
-        "laravel/passport": "^5.0 || ^6.0 || ^7.0",
-        "laravel/socialite": "^4.0",
-        "schedula/league-oauth2-social" : "^1.0",
-        "illuminate/support": "~5.7 || ^6.0 || ^7.0"
+        "php": "^7.1.3 || ^8.0",
+        "laravel/passport": "^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0",
+        "laravel/socialite": "^4.0 || ^5.0",
+        "schedula/league-oauth2-social" : "dev-hotfix/dependency-fixes",
+        "illuminate/support": "~5.7 || ^6.0 || ^7.0 || ^8.0"
     },
     "autoload": {
         "psr-4": {
